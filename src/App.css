@@ -1,0 +1,79 @@
+#preview{
+  border: 1px black solid;
+  background-color: #CADBC0;
+  width:80%;
+  margin: 0px auto;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+.editor-wrapper{
+  margin-top:20px;
+}
+code{
+  background: #328810;
+}
+
+#preview img{
+  width: 100%;
+}
+h3{
+  margin-top: 0px;
+  color:white;
+}
+
+body{
+  background-color: #443341;
+}
+
+.App{
+text-align: center;
+
+font-family: monospace;
+}
+
+ul{
+  list-style: inside;
+}
+
+textarea{
+  height: 25em;
+  background-color: #CADBC0;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+@media only screen and (min-width: 600px) {
+  textarea{
+    width: 50em;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  textarea{
+    width: 80%;
+  }
+
+}
